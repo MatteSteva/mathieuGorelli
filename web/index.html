@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+
+  <base href="$FLUTTER_BASE_HREF">
+
+  <title>Mathieu Gorelli — Portfolio</title>
+  <meta name="description" content="Portfolio di Mathieu Gorelli, artista e disegnatore a grafite. Opere, progetti e contatti.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mathieu Gorelli — Portfolio">
+  <meta property="og:description" content="Opere a grafite su carta, progetti e contatti dell'artista Mathieu Gorelli.">
+  <meta property="og:image" content="assets/assets/branding/banner.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0D0D0D">
+
+  <style>
+    html, body { margin: 0; padding: 0; background-color: #0D0D0D; }
+    #loading {
+      position: fixed; inset: 0; display: flex; align-items: center;
+      justify-content: center; background: #0D0D0D; color: #EAEAEA;
+      font-family: Georgia, 'Times New Roman', serif; letter-spacing: .25em;
+      font-size: 14px; text-transform: uppercase; z-index: 9999;
+    }
+  </style>
+</head>
+<body>
+  <div id="loading">Mathieu Gorelli</div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('loading');
+      if (el) el.remove();
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

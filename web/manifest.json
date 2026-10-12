@@ -1,0 +1,11 @@
+{
+  "name": "Mathieu Gorelli — Portfolio",
+  "short_name": "M. Gorelli",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#0D0D0D",
+  "description": "Portfolio di Mathieu Gorelli, artista e disegnatore a grafite.",
+  "orientation": "portrait-primary",
+  "icons": []
+}
