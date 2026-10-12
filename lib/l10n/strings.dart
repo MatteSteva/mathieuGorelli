@@ -77,12 +77,20 @@ class Strings {
   String get aboutTitle => pick('About me', 'About me');
   List<String> get aboutBody => it
       ? const [
-          'Mathieu Gorelli è un artista che lavora principalmente a grafite su carta. Il suo linguaggio nasce dall\'incontro tra disegno e musica, e dalla scelta di dedicare a ogni opera il tempo che merita.',
-          'Le sue opere sono state finaliste in premi come il Premio Arte 2025 e lo Yicca Prize 2025, ed è attivo con mostre, murales e collaborazioni sul territorio.',
+          'Mathieu Gorelli è un artista visivo concettuale che utilizza l\'iperrealismo come mezzo espressivo, lavorando esclusivamente con la grafite.',
+          'Dal 2018 ha trovato nel disegno un modo per dare forma a sentimenti ed emozioni inesprimibili a parole. Uno degli artisti che ha influenzato maggiormente il suo percorso è Jono Dry, specializzato nel disegno iperrealista e surrealista, fonte di ispirazione della prima opera: "Solitude II".',
+          'Ha esposto nella chiesa sconsacrata di San Grato ad Aosta e al Castello di Saint-Rhémy-en-Bosses con la curatela di Alessandro Parrella.',
+          'Nel 2025 è stato selezionato per mostre collettive a Torino con l\'associazione Artàporter, a Venezia per lo Yicca Prize 2025 e a Milano come finalista del Premio Arte 2025, pubblicato sull\'omonima rivista nei mesi di settembre, ottobre e novembre.',
+          'Nello stesso anno una delle sue opere, Vuoto, ha trovato casa presso l\'Osservatorio Astronomico della Regione Autonoma Valle d\'Aosta ed è stata esposta a Milano.',
+          'Nel 2026 ha esposto a Finalborgo nella sede di Fattoamanofinalborgo e ha presentato il suo primo progetto "The sound of graphite" al Planetario di Lignan in occasione del 34° Star Party.',
         ]
       : const [
-          'Mathieu Gorelli is an artist working mainly in graphite on paper. His language grows out of the meeting between drawing and music, and the choice to give every work the time it deserves.',
-          'His works have been finalists in awards such as Premio Arte 2025 and the Yicca Prize 2025, and he is active with exhibitions, murals and collaborations across his region.',
+          'Mathieu Gorelli is a conceptual visual artist who works exclusively in graphite, using hyperrealism as his medium of expression.',
+          'Since 2018, he has found in drawing a way to capture feelings and emotions that cannot be described in words. One of the artists who has most influenced his journey is Jono Dry, specialising in hyperrealist and surrealist drawing, who inspired his first work: "Solitude II".',
+          'He has exhibited in the deconsecrated church of San Grato in Aosta and at the Castle of Saint-Rhémy-en-Bosses, curated by Alessandro Parrella.',
+          'In 2025 he was selected for group exhibitions in Turin with the Artàporter association, in Venice for the Yicca Prize 2025, and in Milan as a finalist for the Premio Arte 2025, featured in the related magazine in September, October and November.',
+          'In the same year one of his works, Vuoto, found a home at the Astronomical Observatory of the Autonomous Region of Aosta Valley and was exhibited in Milan.',
+          'In 2026 he exhibited at Fattoamanofinalborgo in Finalborgo and presented his first project "The sound of graphite" at the Lignan Planetarium during the 34th Star Party.',
         ];
   String get pressTitle => pick('Premi & stampa', 'Awards & press');
 
